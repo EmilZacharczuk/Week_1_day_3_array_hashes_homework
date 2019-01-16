@@ -34,7 +34,9 @@ p stops.length
 stops.reverse!
 p stops
 # 10. Print out all the stops using a for loop
-
+for station in stops
+  p station
+end
 ## Exercise B
 
 ### Given the following data structure:
