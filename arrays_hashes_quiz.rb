@@ -114,7 +114,9 @@ p users["Erik"][:lottery_numbers].min
 # # 6. Return an array of Avril's lottery numbers that are even
 puts users["Avril"][:lottery_numbers].select(&:even?)
 # # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
+p users["Erik"][:lottery_numbers].push(7)
 # # 8. Change Erik's hometown to Edinburgh
+
 # # 9. Add a pet dog to Erik called "Fluffy"
 # # 10. Add another person to the users hash
 #
