@@ -42,67 +42,69 @@ end
 ### Given the following data structure:
 
 # ```ruby
-# users = {
-#   "Jonathan" => {
-#     :twitter => "jonnyt",
-#     :lottery_numbers => [6, 12, 49, 33, 45, 20],
-#     :home_town => "Stirling",
-#     :pets => [
-#     {
-#       :name => "fluffy",
-#       :species => "cat"
-#     },
-#     {
-#       :name => "fido",
-#       :species => "dog"
-#     },
-#     {
-#       :name => "spike",
-#       :species => "dog"
-#     }
-#   ]
-#   },
-#   "Erik" => {
-#     :twitter => "eriksf",
-#     :lottery_numbers => [18, 34, 8, 11, 24],
-#     :home_town => "Linlithgow",
-#     :pets => [
-#     {
-#       :name => "nemo",
-#       :species => "fish"
-#     },
-#     {
-#       :name => "kevin",
-#       :species => "fish"
-#     },
-#     {
-#       :name => "spike",
-#       :species => "dog"
-#     },
-#     {
-#       :name => "rupert",
-#       :species => "parrot"
-#     }
-#   ]
-#   },
-#   "Avril" => {
-#     :twitter => "bridgpally",
-#     :lottery_numbers => [12, 14, 33, 38, 9, 25],
-#     :home_town => "Dunbar",
-#     :pets => [
-#       {
-#         :name => "monty",
-#         :species => "snake"
-#       }
-#     ]
-#   }
-# }
+users = {
+  "Jonathan" => {
+    :twitter => "jonnyt",
+    :lottery_numbers => [6, 12, 49, 33, 45, 20],
+    :home_town => "Stirling",
+    :pets => [
+    {
+      :name => "fluffy",
+      :species => "cat"
+    },
+    {
+      :name => "fido",
+      :species => "dog"
+    },
+    {
+      :name => "spike",
+      :species => "dog"
+    }
+  ]
+  },
+  "Erik" => {
+    :twitter => "eriksf",
+    :lottery_numbers => [18, 34, 8, 11, 24],
+    :home_town => "Linlithgow",
+    :pets => [
+    {
+      :name => "nemo",
+      :species => "fish"
+    },
+    {
+      :name => "kevin",
+      :species => "fish"
+    },
+    {
+      :name => "spike",
+      :species => "dog"
+    },
+    {
+      :name => "rupert",
+      :species => "parrot"
+    }
+  ]
+  },
+  "Avril" => {
+    :twitter => "bridgpally",
+    :lottery_numbers => [12, 14, 33, 38, 9, 25],
+    :home_town => "Dunbar",
+    :pets => [
+      {
+        :name => "monty",
+        :species => "snake"
+      }
+    ]
+  }
+}
 # ```
-#
+p "----------------------------Hash 1------------------------"
 # ### Complete these tasks:
 #
 # # 1. Get Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+p users["Jonathan"][:twitter]
 # # 2. Get Erik's hometown
+p users["Erik"][:home_town]
 # # 3. Get the array of Erik's lottery numbers
 # # 4. Get the type of Avril's pet Monty
 # # 5. Get the smallest of Erik's lottery numbers
