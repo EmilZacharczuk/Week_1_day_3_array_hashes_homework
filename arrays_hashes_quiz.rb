@@ -24,6 +24,8 @@ p stops.find_index("Linlithgow")
 stops.delete("Livingston")
 p stops
 # 6. Delete `"Cumbernauld"` from the array by index
+stops.delete_at(2)
+p stops
 # 7. How many stops there are in the array?
 # 8. How many ways can we return `"Falkirk High"` from the array?
 # 9. Reverse the positions of the stops in the array
