@@ -30,6 +30,7 @@ p stops
 p stops.length
 # 8. How many ways can we return `"Falkirk High"` from the array?
 p stops[2]
+p stops.at(2)
 # 9. Reverse the positions of the stops in the array
 stops.reverse!
 p stops
