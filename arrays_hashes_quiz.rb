@@ -29,7 +29,7 @@ p stops
 # 7. How many stops there are in the array?
 p stops.length
 # 8. How many ways can we return `"Falkirk High"` from the array?
-
+p stops[2]
 # 9. Reverse the positions of the stops in the array
 stops.reverse!
 p stops
