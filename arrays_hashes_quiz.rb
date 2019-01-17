@@ -126,8 +126,8 @@ hash = {
 p users["Erik"][:pets].push(hash)
 # # 10. Add another person to the users hash
 hash = {}
-p users["Emil"] = hash
-#
+users["Emil"] = hash
+p users.keys
 # ## Exercise C
 #
 # ### Given the following data structure:
